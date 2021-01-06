@@ -4,7 +4,7 @@ FROM node:buster
 WORKDIR /app
 
 # Install app dependencies
-COPY package.json yarn.lock /app/
+COPY package.json /app/
 
 RUN yarn install
 

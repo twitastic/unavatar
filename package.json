@@ -13,12 +13,30 @@
     "url": "https://kikobeats.com"
   },
   "contributors": [
-    "Alexander Schlindwein <alexander.schlindwein@hotmail.de>",
-    "Omid Nikrah <omidnikrah@gmail.com>",
-    "Zadkiel <hello@zadkiel.fr>",
-    "Reed Jones <reedjones@reedjones.com>",
-    "Rodrigo Reis <rodrigoreis22@yahoo.com.br>",
-    "Tom Witkowski <dev.gummibeer@gmail.com>"
+    {
+      "name": "Alexander Schlindwein",
+      "email": "alexander.schlindwein@hotmail.de"
+    },
+    {
+      "name": "Omid Nikrah",
+      "email": "omidnikrah@gmail.com"
+    },
+    {
+      "name": "Zadkiel",
+      "email": "hello@zadkiel.fr"
+    },
+    {
+      "name": "Reed Jones",
+      "email": "reedjones@reedjones.com"
+    },
+    {
+      "name": "Rodrigo Reis",
+      "email": "rodrigoreis22@yahoo.com.br"
+    },
+    {
+      "name": "Tom Witkowski",
+      "email": "dev.gummibeer@gmail.com"
+    }
   ],
   "repository": {
     "type": "git",
@@ -130,7 +148,6 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "lint-staged"
     }
   },
